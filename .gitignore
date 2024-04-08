@@ -1,2 +1,5 @@
 /env
 outline
+__pycache__
+.gitignore
+
