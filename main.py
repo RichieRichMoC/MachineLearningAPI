@@ -24,7 +24,7 @@ encoder = joblib.load("./models/label_encoder.joblib")
 
 @app.get('/')
 def home():
-    return {"Hello World"}
+    return {"Welcome to Sepsis Prediction with FastAPI "}
 
 # Info route
 @app.get('/info')

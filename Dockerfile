@@ -1,10 +1,13 @@
-FROM python:3.9
+FROM python:3.12.1
 
 WORKDIR /app
 
-COPY . /app
+COPY requirement.txt /requirement.txt
 
-RUN pip install -r requirements.txt
+
+RUN python -m pip install -r /requirement.txt
+
+COPY . /app
 
 EXPOSE 800
 

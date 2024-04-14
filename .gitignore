@@ -1,5 +1,5 @@
 /env
-outline.txt
-__pycache__
-
+/outline.txt
+/__pycache__
+/.dockerignore
 
