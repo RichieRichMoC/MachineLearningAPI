@@ -1,10 +1,8 @@
 /env
-/__pycache__
+__pycache__
 /Dataset
-/env
 /Notebooks
 /src\Pages
-/.gitignore
-/LICENSE
-/outline
-/README.md
+.gitignore
+LICENSE
+README.md
